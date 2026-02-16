@@ -30,11 +30,11 @@ The following plots visualize the transformation from the raw, overlapping mix t
 
 ## Methodology
 The system follows a 5-stage architecture:
-1.  **Preprocessing**: Normalization of signals to [$−1.0$,$1.0$].
+1.  **Preprocessing**: Normalization of signals to $[−1.0,1.0]$.
 2.  **Spectral Equalization**: Butterworth SOS filtering to separate frequency bands.
 3.  **Feature Extraction**: Logarithmic PSD computation using Welch's method.
 4.  **Decision Smoothing**: Applying a moving average to the raw binary detection.
-5.  **Signal Mixing**: Weighted sum mixing using a ducking factor of $α$=0.94.
+5.  **Signal Mixing**: Weighted sum mixing using a ducking factor of $α = 0.94$.
 
 ---
 
